@@ -11,6 +11,7 @@
         android:layout_margin="4dp"
         android:scaleType="centerCrop"
         android:id="@+id/image"
+        android:contentDescription="@string/image"
         tools:src="@tools:sample/avatars"/>
 
     <TextView
