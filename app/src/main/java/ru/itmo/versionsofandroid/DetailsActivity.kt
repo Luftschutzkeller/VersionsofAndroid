@@ -4,6 +4,9 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import ru.itmo.versionsofandroid.data.Android
 
 class DetailsActivity : AppCompatActivity() {
@@ -14,6 +17,22 @@ class DetailsActivity : AppCompatActivity() {
         val android = intent?.getParcelableExtra<Android>(ARGS_VERSION)
             ?: throw IllegalArgumentException("Missing argument")
 
+        findViewById<ImageView>(R.id.poster).setImageResource(android.posterAndroid)
+        findViewById<ImageView>(R.id.avatar).setImageResource(android.imageAndroid)
+        findViewById<TextView>(R.id.title).text = android.title
+        findViewById<TextView>(R.id.released_date).text = android.releaseDate
+        findViewById<TextView>(R.id.overview_text).text = android.overview
+
+        val androidButton: Button = findViewById(R.id.click_btn)
+        androidButton.setOnClickListener {
+            openAndroidTrailer(android.trailerUrl)
+        }
+
+    }
+
+    private fun openAndroidTrailer(url: String) {
+        val intentUrl = Intent(Intent.ACTION_VIEW, Url.parce(url))
+        startActivity(IntentUrl)
 
     }
 

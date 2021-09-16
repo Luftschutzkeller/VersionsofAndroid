@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/VersionsofAndroid/app/src/main/res/drawable/jelly.xml" value="0.1" />
+        <entry key="..\:/VersionsofAndroid/app/src/main/res/drawable/poster.xml" value="0.21302083333333333" />
         <entry key="..\:/VersionsofAndroid/app/src/main/res/layout/activity_details.xml" value="0.196875" />
         <entry key="..\:/VersionsofAndroid/app/src/main/res/layout/activity_main.xml" value="0.196875" />
         <entry key="..\:/VersionsofAndroid/app/src/main/res/layout/item_android.xml" value="0.1" />

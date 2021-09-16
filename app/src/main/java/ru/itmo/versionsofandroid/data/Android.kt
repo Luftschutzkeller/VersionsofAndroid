@@ -10,7 +10,7 @@ data class Android(
     val title: String,
     @DrawableRes val imageAndroid: Int,
     @DrawableRes val posterAndroid: Int,
-    val overview: Int,
+    val overview: String,
     val releaseDate: String,
     val trailerUrl: String
 

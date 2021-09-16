@@ -1,6 +1,5 @@
 package ru.itmo.androidversions.data
 
-import ru.itmo.androidversions.R
 import ru.itmo.versionsofandroid.R
 import ru.itmo.versionsofandroid.data.Android
 
