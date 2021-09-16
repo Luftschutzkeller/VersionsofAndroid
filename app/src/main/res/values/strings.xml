@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Versions of Android</string>
     <string name="image">image</string>
+    <string name="overview">overview</string>
+    <string name="version_trailer">version_trailer</string>
+    <string name="released_day">released_day</string>
+    <string name="avatar">avatar</string>
+    <string name="poster">poster</string>
 </resources>
